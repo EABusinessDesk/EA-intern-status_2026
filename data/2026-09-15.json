@@ -1,0 +1,73 @@
+{
+  "generated_at_utc": "2026-09-15T12:19:52Z",
+  "local_date": "2026-09-15",
+  "window_start_utc": "2026-09-14T18:30:00Z",
+  "day1_date": "2026-09-14",
+  "elapsed_day_number": 2,
+  "org": "ExtremumAnalytics-CIR",
+  "projects": [
+    {
+      "project": "P1",
+      "name": "Retail Customer Intelligence Assistant",
+      "assignee": "Jahanvi Garg",
+      "repo": "EA-P1-Retail-Customer-Intelligence-Assistant",
+      "status": "repo_not_found"
+    },
+    {
+      "project": "P2",
+      "name": "Construction & Interior Design Project Assistant",
+      "assignee": "Aastha Sehgal",
+      "repo": "EA-P2-construction-interior-design-assistant",
+      "status": "repo_not_found"
+    },
+    {
+      "project": "P3",
+      "name": "Real Estate Finance Process Automation Assistant",
+      "assignee": "Samridhi Jain",
+      "repo": "EA-P3-Real-Estate-Finance-Process-Automation-Assistant",
+      "status": "repo_not_found"
+    },
+    {
+      "project": "P4",
+      "name": "AI Coaching & Mentoring Assistant",
+      "assignee": "Divya Sharma",
+      "repo": "EA-P4-AI-Coaching-And-Mentoring-Assistant",
+      "status": "repo_not_found"
+    },
+    {
+      "project": "P5",
+      "name": "AI Procurement Automation Assistant",
+      "assignee": "Nitin Sharma",
+      "repo": "EA-P5-AI-Procurement-Automation-Assistant",
+      "status": "repo_not_found"
+    },
+    {
+      "project": "P6",
+      "name": "AI Legal Document & Compliance Assistant",
+      "assignee": "Parvesh",
+      "repo": null,
+      "status": "no_repo_configured"
+    },
+    {
+      "project": "P7",
+      "name": "Cargo Risk & Fraud Intelligence Assistant",
+      "assignee": "Saurav Giri",
+      "repo": null,
+      "status": "no_repo_configured"
+    },
+    {
+      "project": "P8",
+      "name": "AI E-Commerce Customer & Product Intelligence Assistant",
+      "assignee": "Jyotsna Kapoor",
+      "repo": null,
+      "status": "no_repo_configured"
+    },
+    {
+      "project": "P9",
+      "name": "Marketing Intelligence Assistant",
+      "assignee": "Rudra Mehta",
+      "repo": "EA-P9-AI-Marketing-Inteligence-Assistant",
+      "status": "repo_not_found"
+    }
+  ]
+}
