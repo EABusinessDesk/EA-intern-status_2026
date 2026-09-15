@@ -1,0 +1,63 @@
+{
+  "org": "ExtremumAnalytics-CIR",
+  "timezone_offset_hours": 5.5,
+  "day1_date": "2026-09-15",
+  "redact_commit_messages": false,
+  "include_file_paths": true,
+  "projects": [
+    {
+      "project": "P1",
+      "name": "Retail Customer Intelligence Assistant",
+      "assignee": "Jahanvi Garg",
+      "repo": "EA-P1-Retail-Customer-Intelligence-Assistant"
+    },
+    {
+      "project": "P2",
+      "name": "Construction & Interior Design Project Assistant",
+      "assignee": "Aastha Sehgal",
+      "repo": "EA-P2-construction-interior-design-assistant"
+    },
+    {
+      "project": "P3",
+      "name": "Real Estate Finance Process Automation Assistant",
+      "assignee": "Samridhi Jain",
+      "repo": "EA-P3-Real-Estate-Finance-Process-Automation-Assistant"
+    },
+    {
+      "project": "P4",
+      "name": "AI Coaching & Mentoring Assistant",
+      "assignee": "Divya Sharma",
+      "repo": "EA-P4-AI-Coaching-And-Mentoring-Assistant"
+    },
+    {
+      "project": "P5",
+      "name": "AI Procurement Automation Assistant",
+      "assignee": "Nitin Sharma",
+      "repo": "EA-P5-AI-Procurement-Automation-Assistant"
+    },
+    {
+      "project": "P6",
+      "name": "AI Legal Document & Compliance Assistant",
+      "assignee": "Parvesh",
+      "repo": null
+    },
+    {
+      "project": "P7",
+      "name": "Cargo Risk & Fraud Intelligence Assistant",
+      "assignee": "Saurav Giri",
+      "repo": null
+    },
+    {
+      "project": "P8",
+      "name": "AI E-Commerce Customer & Product Intelligence Assistant",
+      "assignee": "Jyotsna Kapoor",
+      "repo": null
+    },
+    {
+      "project": "P9",
+      "name": "Marketing Intelligence Assistant",
+      "assignee": "Rudra Mehta",
+      "repo": "EA-P9-AI-Marketing-Inteligence-Assistant"
+    }
+  ]
+}
