@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T12:19:52Z",
+  "generated_at_utc": "2026-09-15T12:52:35Z",
   "local_date": "2026-09-15",
   "window_start_utc": "2026-09-14T18:30:00Z",
   "day1_date": "2026-09-14",
@@ -11,35 +11,497 @@
       "name": "Retail Customer Intelligence Assistant",
       "assignee": "Jahanvi Garg",
       "repo": "EA-P1-Retail-Customer-Intelligence-Assistant",
-      "status": "repo_not_found"
+      "status": "ok",
+      "default_branch": "main",
+      "repo_created_at": "2026-09-14T08:49:30Z",
+      "last_push_at": "2026-09-15T12:09:13Z",
+      "is_empty": false,
+      "branches": [
+        "main"
+      ],
+      "commits_today": [
+        {
+          "sha": "f2480e21",
+          "author": "Jahanvi Garg",
+          "login": "jahanvigarg238",
+          "date": "2026-09-15T09:25:37Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 673,
+          "deletions": 167,
+          "files_changed": 11,
+          "message": "V2: Add basic validation/tests passing",
+          "paths": [
+            "README.md",
+            "backend/app/analytics.py",
+            "backend/app/db.py",
+            "backend/app/main.py",
+            "backend/package-lock.json",
+            "backend/requirements.txt",
+            "backend/tests/test_day2.py",
+            "frontend/package-lock.json",
+            "frontend/src/App.jsx",
+            "frontend/src/index.css",
+            "package-lock.json"
+          ]
+        },
+        {
+          "sha": "31f164b4",
+          "author": "Jahanvi Garg",
+          "login": "jahanvigarg238",
+          "date": "2026-09-15T11:32:29Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 451,
+          "deletions": 234,
+          "files_changed": 2,
+          "message": "Changing frontend making user friendly",
+          "paths": [
+            "frontend/src/App.jsx",
+            "frontend/src/index.css"
+          ]
+        }
+      ],
+      "commit_count_today": 2,
+      "additions_today": 1124,
+      "deletions_today": 401,
+      "total_commits_default_branch": 3,
+      "first_commit_date": "2026-09-14",
+      "active_days": 2,
+      "active_dates": [
+        "2026-09-14",
+        "2026-09-15"
+      ],
+      "file_count": 38,
+      "top_level": [
+        ".gitignore",
+        "README.md",
+        "backend",
+        "frontend",
+        "package-lock.json"
+      ],
+      "markers": {
+        "has_readme": true,
+        "has_tests": true,
+        "has_requirements": true,
+        "has_frontend": true,
+        "mentions_langgraph": false
+      }
     },
     {
       "project": "P2",
       "name": "Construction & Interior Design Project Assistant",
       "assignee": "Aastha Sehgal",
       "repo": "EA-P2-construction-interior-design-assistant",
-      "status": "repo_not_found"
+      "status": "ok",
+      "default_branch": "main",
+      "repo_created_at": "2026-09-14T08:48:18Z",
+      "last_push_at": "2026-09-15T12:47:30Z",
+      "is_empty": false,
+      "branches": [
+        "main"
+      ],
+      "commits_today": [
+        {
+          "sha": "c996fc8c",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-15T07:08:00Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 68,
+          "deletions": 0,
+          "files_changed": 2,
+          "message": "feat(backend): setup initial FastAPI server spine and endpoints",
+          "paths": [
+            "backend/app/__init__.py",
+            "backend/app/main.py"
+          ]
+        },
+        {
+          "sha": "834fbd64",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-15T12:35:21Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 1674,
+          "deletions": 0,
+          "files_changed": 16,
+          "message": "feat(frontend): setup React Vite UI and API integration",
+          "paths": [
+            "frontend/.gitignore",
+            "frontend/.oxlintrc.json",
+            "frontend/README.md",
+            "frontend/index.html",
+            "frontend/package-lock.json",
+            "frontend/package.json",
+            "frontend/public/favicon.svg",
+            "frontend/public/icons.svg",
+            "frontend/src/App.css",
+            "frontend/src/App.jsx",
+            "frontend/src/assets/hero.png",
+            "frontend/src/assets/react.svg",
+            "frontend/src/assets/vite.svg",
+            "frontend/src/index.css",
+            "frontend/src/main.jsx",
+            "frontend/vite.config.js"
+          ]
+        },
+        {
+          "sha": "e2edb691",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-15T12:46:59Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 222,
+          "deletions": 0,
+          "files_changed": 22,
+          "message": "test(backend): add pytest suite, datasets, and dependencies",
+          "paths": [
+            "backend/data/structured_data/budgets.csv",
+            "backend/data/structured_data/decisions.csv",
+            "backend/data/structured_data/projects.csv",
+            "backend/data/structured_data/properties.csv",
+            "backend/data/structured_data/rooms.csv",
+            "backend/data/structured_data/selections.csv",
+            "backend/data/structured_data/tasks.csv",
+            "backend/data/structured_data/vendors.csv",
+            "backend/data/unstructured_documents/BUDGET_REVIEW_P001.txt",
+            "backend/data/unstructured_documents/CLIENT_EMAIL_P001_2026-09-11.txt",
+            "backend/data/unstructured_documents/CONTRACTOR_INSTRUCTIONS_P001.txt",
+            "backend/data/unstructured_documents/DESIGN_BOOK_P001.txt",
+            "backend/data/unstructured_documents/DESIGN_BOOK_P002.txt",
+            "backend/data/unstructured_documents/FLOOR_PLAN_P001.txt",
+            "backend/data/unstructured_documents/PRODUCT_SPEC_CABINET_FINISH.txt",
+            "backend/data/unstructured_documents/PRODUCT_SPEC_COUNTERTOP.txt",
+            "backend/data/unstructured_documents/PROJECT_GUIDANCE_PRECONSTRUCTION.txt",
+            "backend/data/unstructured_documents/SITE_WALK_P001_2026-09-10.txt",
+            "backend/data/unstructured_documents/SITE_WALK_P002.txt",
+            "backend/data/unstructured_documents/UNRELATED_VENDOR_CATALOG.txt",
+            "backend/requirements.txt",
+            "backend/tests/test_main.py"
+          ]
+        },
+        {
+          "sha": "c45f001c",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-15T12:47:12Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 25,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "docs: add Day 1 test results and verification matrix",
+          "paths": [
+            "TEST_RESULTS.md"
+          ]
+        }
+      ],
+      "commit_count_today": 4,
+      "additions_today": 1989,
+      "deletions_today": 0,
+      "total_commits_default_branch": 8,
+      "first_commit_date": "2026-09-14",
+      "active_days": 2,
+      "active_dates": [
+        "2026-09-14",
+        "2026-09-15"
+      ],
+      "file_count": 44,
+      "top_level": [
+        ".gitignore",
+        "NOTES.md",
+        "README.md",
+        "TEST_RESULTS.md",
+        "backend",
+        "frontend"
+      ],
+      "markers": {
+        "has_readme": true,
+        "has_tests": true,
+        "has_requirements": true,
+        "has_frontend": true,
+        "mentions_langgraph": false
+      }
     },
     {
       "project": "P3",
       "name": "Real Estate Finance Process Automation Assistant",
       "assignee": "Samridhi Jain",
       "repo": "EA-P3-Real-Estate-Finance-Process-Automation-Assistant",
-      "status": "repo_not_found"
+      "status": "ok",
+      "default_branch": "main",
+      "repo_created_at": "2026-09-14T17:23:15Z",
+      "last_push_at": "2026-09-15T10:43:48Z",
+      "is_empty": false,
+      "branches": [
+        "main"
+      ],
+      "commits_today": [
+        {
+          "sha": "a8ae11c6",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-15T10:34:12Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 2740,
+          "deletions": 0,
+          "files_changed": 18,
+          "message": "Day 1(v.0.1): built application spine - React UI, FastAPI, sample data with tests",
+          "paths": [
+            ".gitignore",
+            "backend/app/__init__.py",
+            "backend/app/data.py",
+            "backend/app/main.py",
+            "backend/app/models.py",
+            "backend/pytest.ini",
+            "backend/requirements.txt",
+            "backend/tests/test_api.py",
+            "frontend/index.html",
+            "frontend/package-lock.json",
+            "frontend/package.json",
+            "frontend/src/App.css",
+            "frontend/src/App.tsx",
+            "frontend/src/index.css",
+            "frontend/src/main.tsx",
+            "frontend/src/vite-env.d.ts",
+            "frontend/tsconfig.json",
+            "frontend/vite.config.ts"
+          ]
+        },
+        {
+          "sha": "ed008e90",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-15T10:43:09Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 208,
+          "deletions": 33,
+          "files_changed": 4,
+          "message": "Day 1(v.0.1): updated documents covering verified app",
+          "paths": [
+            "README.md",
+            "docs/ARCHITECTURE.md",
+            "docs/PROGRESS.md",
+            "docs/TECHNICAL_DECISIONS.md"
+          ]
+        }
+      ],
+      "commit_count_today": 2,
+      "additions_today": 2948,
+      "deletions_today": 33,
+      "total_commits_default_branch": 3,
+      "first_commit_date": "2026-09-14",
+      "active_days": 2,
+      "active_dates": [
+        "2026-09-14",
+        "2026-09-15"
+      ],
+      "file_count": 24,
+      "top_level": [
+        ".gitignore",
+        "README.md",
+        "backend",
+        "docs",
+        "frontend"
+      ],
+      "markers": {
+        "has_readme": true,
+        "has_tests": true,
+        "has_requirements": true,
+        "has_frontend": true,
+        "mentions_langgraph": false
+      }
     },
     {
       "project": "P4",
       "name": "AI Coaching & Mentoring Assistant",
       "assignee": "Divya Sharma",
       "repo": "EA-P4-AI-Coaching-And-Mentoring-Assistant",
-      "status": "repo_not_found"
+      "status": "ok",
+      "default_branch": "main",
+      "repo_created_at": "2026-09-14T12:55:51Z",
+      "last_push_at": "2026-09-15T10:53:22Z",
+      "is_empty": false,
+      "branches": [
+        "main"
+      ],
+      "commits_today": [
+        {
+          "sha": "e380735b",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-15T10:52:48Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 927,
+          "deletions": 56,
+          "files_changed": 3,
+          "message": "Day-1: Refined UI design",
+          "paths": [
+            "frontend/src/App.jsx",
+            "frontend/src/assets/logo.png",
+            "frontend/src/styles.css"
+          ]
+        }
+      ],
+      "commit_count_today": 1,
+      "additions_today": 927,
+      "deletions_today": 56,
+      "total_commits_default_branch": 5,
+      "first_commit_date": "2026-09-14",
+      "active_days": 2,
+      "active_dates": [
+        "2026-09-14",
+        "2026-09-15"
+      ],
+      "file_count": 19,
+      "top_level": [
+        ".gitignore",
+        "README.md",
+        "backend",
+        "data",
+        "frontend",
+        "package-lock.json"
+      ],
+      "markers": {
+        "has_readme": true,
+        "has_tests": true,
+        "has_requirements": true,
+        "has_frontend": true,
+        "mentions_langgraph": false
+      }
     },
     {
       "project": "P5",
       "name": "AI Procurement Automation Assistant",
       "assignee": "Nitin Sharma",
       "repo": "EA-P5-AI-Procurement-Automation-Assistant",
-      "status": "repo_not_found"
+      "status": "ok",
+      "default_branch": "main",
+      "repo_created_at": "2026-09-15T07:15:09Z",
+      "last_push_at": "2026-09-15T10:54:22Z",
+      "is_empty": false,
+      "branches": [
+        "main"
+      ],
+      "commits_today": [
+        {
+          "sha": "81f75515",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-15T07:15:11Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 218,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "Initial commit",
+          "paths": [
+            ".gitignore"
+          ]
+        },
+        {
+          "sha": "af2b6925",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-15T10:53:57Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 77341,
+          "deletions": 0,
+          "files_changed": 300,
+          "message": "Day - 1 Assignment Done",
+          "paths": [
+            "Documents/EA_P5_AI_Procurement_Automation_Assistant.docx",
+            "Documents/Enterprise_AI_Application_Engineering_Intern_Handout.docx",
+            "EOD/Day - 1/EOD REPORT.docx",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/BENCHMARK_QUESTIONS.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/README.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/structured_data/contracts.csv",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/structured_data/evaluations.csv",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/structured_data/items.csv",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/structured_data/purchase_orders.csv",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/structured_data/quotes.csv",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/structured_data/rfqs.csv",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/structured_data/savings.csv",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/structured_data/suppliers.csv",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/PROCUREMENT_EVALUATION_POLICY.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/RFQ_R1007_REQUIREMENTS.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/SUP001_PROPOSAL_R1007.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/SUP002_PROPOSAL_R1007.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/SUP003_EMAIL.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/SUP003_EVALUATION_NOTE.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/SUP003_PROPOSAL_R1007.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/SUP004_PROPOSAL_R1007.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/SUP005_PROPOSAL_R1007.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/SUPPLIER_CONTRACT_SUP003.txt",
+            "Extremum_Analytics_AI_Procurement_Automation_Data_Pack/AI_Procurement_Automation_Assistant_Data_Pack/unstructured_documents/UNRELATED_SUPPLIER_NOTE.txt",
+            "backend/data/sample_data.json",
+            "backend/main.py",
+            "backend/requirements.txt",
+            "commands.txt",
+            "frontend/.gitignore",
+            "frontend/.oxlintrc.json",
+            "frontend/README.md",
+            "frontend/index.html",
+            "frontend/package-lock.json",
+            "frontend/package.json",
+            "frontend/public/favicon.svg",
+            "frontend/public/icons.svg",
+            "frontend/src/App.css",
+            "frontend/src/App.jsx",
+            "frontend/src/assets/hero.png",
+            "frontend/src/assets/react.svg"
+          ]
+        }
+      ],
+      "commit_count_today": 2,
+      "additions_today": 77559,
+      "deletions_today": 0,
+      "total_commits_default_branch": 2,
+      "first_commit_date": "2026-09-15",
+      "active_days": 1,
+      "active_dates": [
+        "2026-09-15"
+      ],
+      "file_count": 360,
+      "top_level": [
+        ".gitignore",
+        "Documents",
+        "EOD",
+        "Extremum_Analytics_AI_Procurement_Automation_Data_Pack",
+        "backend",
+        "commands.txt",
+        "frontend",
+        "node_modules",
+        "package-lock.json",
+        "package.json",
+        "readme.md"
+      ],
+      "markers": {
+        "has_readme": true,
+        "has_tests": false,
+        "has_requirements": true,
+        "has_frontend": true,
+        "mentions_langgraph": false
+      }
     },
     {
       "project": "P6",
@@ -67,7 +529,82 @@
       "name": "Marketing Intelligence Assistant",
       "assignee": "Rudra Mehta",
       "repo": "EA-P9-AI-Marketing-Inteligence-Assistant",
-      "status": "repo_not_found"
+      "status": "ok",
+      "default_branch": "main",
+      "repo_created_at": "2026-09-14T13:16:37Z",
+      "last_push_at": "2026-09-15T09:19:15Z",
+      "is_empty": false,
+      "branches": [
+        "main"
+      ],
+      "commits_today": [
+        {
+          "sha": "79facf84",
+          "author": "Rudra",
+          "login": "rudramehta-w",
+          "date": "2026-09-15T09:17:53Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 134,
+          "deletions": 226,
+          "files_changed": 4,
+          "message": "refactor: ponytail cleanup",
+          "paths": [
+            "backend/app/api/endpoints.py",
+            "backend/app/main.py",
+            "backend/app/schemas/query.py",
+            "backend/app/services/data_loader.py"
+          ]
+        },
+        {
+          "sha": "ef409de6",
+          "author": "Rudra",
+          "login": "rudramehta-w",
+          "date": "2026-09-15T09:18:59Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 134,
+          "deletions": 226,
+          "files_changed": 4,
+          "message": "Merge ponytail-optimization: refactor and prune dead code",
+          "paths": [
+            "backend/app/api/endpoints.py",
+            "backend/app/main.py",
+            "backend/app/schemas/query.py",
+            "backend/app/services/data_loader.py"
+          ]
+        }
+      ],
+      "commit_count_today": 2,
+      "additions_today": 268,
+      "deletions_today": 452,
+      "total_commits_default_branch": 3,
+      "first_commit_date": "2026-09-14",
+      "active_days": 2,
+      "active_dates": [
+        "2026-09-14",
+        "2026-09-15"
+      ],
+      "file_count": 54,
+      "top_level": [
+        ".gitignore",
+        "README.md",
+        "backend",
+        "data",
+        "frontend",
+        "main.py",
+        "pyproject.toml",
+        "tests"
+      ],
+      "markers": {
+        "has_readme": true,
+        "has_tests": true,
+        "has_requirements": true,
+        "has_frontend": true,
+        "mentions_langgraph": false
+      }
     }
   ]
 }
