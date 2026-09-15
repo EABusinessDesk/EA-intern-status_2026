@@ -1,7 +1,7 @@
 {
   "org": "ExtremumAnalytics-CIR",
   "timezone_offset_hours": 5.5,
-  "day1_date": "2026-09-15",
+  "day1_date": "2026-09-14",
   "redact_commit_messages": false,
   "include_file_paths": true,
   "projects": [
