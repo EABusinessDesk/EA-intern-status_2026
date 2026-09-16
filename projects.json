@@ -38,8 +38,8 @@
     {
       "project": "P6",
       "name": "AI Legal Document & Compliance Assistant",
-      "assignee": "Parvesh",
-      "repo": null
+       "assignee": "Parvesh",
+      "repo": "EA-P6-AI-Legal-Document---Compliance-Assistant"
     },
     {
       "project": "P7",
@@ -51,7 +51,7 @@
       "project": "P8",
       "name": "AI E-Commerce Customer & Product Intelligence Assistant",
       "assignee": "Jyotsna Kapoor",
-      "repo": null
+      "repo": "EA-P8-AI-E-Commerce-Customer-Product-Intelligence-Assistant"
     },
     {
       "project": "P9",
