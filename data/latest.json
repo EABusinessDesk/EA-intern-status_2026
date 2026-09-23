@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T05:02:01Z",
+  "generated_at_utc": "2026-09-23T15:19:10Z",
   "local_date": "2026-09-23",
   "window_start_utc": "2026-09-22T18:30:00Z",
   "day1_date": "2026-09-15",
@@ -63,7 +63,7 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-14T08:48:18Z",
-      "last_push_at": "2026-09-22T19:01:12Z",
+      "last_push_at": "2026-09-23T13:35:58Z",
       "is_empty": false,
       "branches": [
         "Day-6-semantic-layer",
@@ -71,9 +71,8 @@
         "day-5-fixes",
         "day-5-refactor-fixes",
         "day-5-relationships",
-        "day-6-semantic-layer",
-        "main",
-        "patch/day-6-feedback"
+        "day-7-select-the-right-evidence",
+        "main"
       ],
       "commits_today": [
         {
@@ -82,7 +81,8 @@
           "login": "aasthasehgal16",
           "date": "2026-09-22T18:47:50Z",
           "branches": [
-            "patch/day-6-feedback"
+            "day-7-select-the-right-evidence",
+            "main"
           ],
           "additions": 40,
           "deletions": 5,
@@ -99,7 +99,8 @@
           "login": "aasthasehgal16",
           "date": "2026-09-22T18:50:50Z",
           "branches": [
-            "patch/day-6-feedback"
+            "day-7-select-the-right-evidence",
+            "main"
           ],
           "additions": 29,
           "deletions": 10,
@@ -115,7 +116,8 @@
           "login": "aasthasehgal16",
           "date": "2026-09-22T19:01:11Z",
           "branches": [
-            "patch/day-6-feedback"
+            "day-7-select-the-right-evidence",
+            "main"
           ],
           "additions": 40,
           "deletions": 2,
@@ -124,14 +126,270 @@
           "paths": [
             "TEST_RESULTS.md"
           ]
+        },
+        {
+          "sha": "78a9614c",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T06:36:47Z",
+          "branches": [
+            "day-7-select-the-right-evidence",
+            "main"
+          ],
+          "additions": 202,
+          "deletions": 78,
+          "files_changed": 4,
+          "message": "feat(day6): fix evidence granularity, remove redundant vendor route, update traversal and add missing vendor test",
+          "paths": [
+            "backend/app/main.py",
+            "backend/app/services/graph/loader.py",
+            "backend/app/services/graph/traversal.py",
+            "backend/tests/test_graph.py"
+          ]
+        },
+        {
+          "sha": "3879b5f9",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T06:42:45Z",
+          "branches": [
+            "day-7-select-the-right-evidence",
+            "main"
+          ],
+          "additions": 116,
+          "deletions": 290,
+          "files_changed": 2,
+          "message": "docs: sync notes.md and test_results.md with 29/29 pytest pass and Day 6 refactoring",
+          "paths": [
+            "NOTES.md",
+            "TEST_RESULTS.md"
+          ]
+        },
+        {
+          "sha": "85bcaeb0",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T06:47:07Z",
+          "branches": [
+            "day-7-select-the-right-evidence",
+            "main"
+          ],
+          "additions": 138,
+          "deletions": 16,
+          "files_changed": 6,
+          "message": "Merge branch 'main' into patch/day-6-feedback",
+          "paths": [
+            "NOTES.md",
+            "TEST_RESULTS.md",
+            "backend/app/main.py",
+            "backend/app/services/graph/loader.py",
+            "backend/app/services/graph/traversal.py",
+            "backend/tests/test_traversal_fix.py"
+          ]
+        },
+        {
+          "sha": "59d24e6c",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T07:11:15Z",
+          "branches": [
+            "day-7-select-the-right-evidence",
+            "main"
+          ],
+          "additions": 511,
+          "deletions": 318,
+          "files_changed": 11,
+          "message": "Merge pull request #6 from ExtremumAnalytics-CIR/patch/day-6-feedback\n\nfeat(day-6): Term Registry Parity, UI Term Badges & AGENTS.md Rules",
+          "paths": [
+            "NOTES.md",
+            "TEST_RESULTS.md",
+            "agents.md",
+            "backend/app/main.py",
+            "backend/app/services/graph/loader.py",
+            "backend/app/services/graph/traversal.py",
+            "backend/app/services/semantic/registry.py",
+            "backend/tests/test_graph.py",
+            "backend/tests/test_semantic.py",
+            "frontend/src/App.css",
+            "frontend/src/App.jsx"
+          ]
+        },
+        {
+          "sha": "7470dd37",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T10:55:31Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 0,
+          "deletions": 16,
+          "files_changed": 1,
+          "message": "refactor: remove redundant /vendor-impact endpoint to enforce single /ask entry point for Day 7",
+          "paths": [
+            "backend/app/main.py"
+          ]
+        },
+        {
+          "sha": "5431eb0c",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T11:14:06Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 17,
+          "deletions": 1,
+          "files_changed": 2,
+          "message": "feat(day-7): update semantic registry with source metadata and add PlanDetail schema",
+          "paths": [
+            "backend/app/models/schemas.py",
+            "backend/app/services/semantic/registry.py"
+          ]
+        },
+        {
+          "sha": "f587a973",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T11:15:03Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 102,
+          "deletions": 0,
+          "files_changed": 3,
+          "message": "feat(day-7): implement intent planner and validator services",
+          "paths": [
+            "backend/app/services/intent/__init__.py",
+            "backend/app/services/intent/planner.py",
+            "backend/app/services/intent/validator.py"
+          ]
+        },
+        {
+          "sha": "9de38445",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T11:33:11Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 45,
+          "deletions": 20,
+          "files_changed": 1,
+          "message": "feat(day-7): integrate intent planner into /ask route with plan inspectability",
+          "paths": [
+            "backend/app/main.py"
+          ]
+        },
+        {
+          "sha": "a80dbcef",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T11:34:55Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 17,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "feat(day-7): implement validator services",
+          "paths": [
+            "backend/app/services/intent/validator.py"
+          ]
+        },
+        {
+          "sha": "d8bc6f5d",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T11:35:17Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 37,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "test(day-7): add unit and integration test suite for intent planning and validation",
+          "paths": [
+            "backend/tests/test_intent_planning.py"
+          ]
+        },
+        {
+          "sha": "1b026870",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T13:01:22Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 113,
+          "deletions": 3,
+          "files_changed": 2,
+          "message": "UI: Add client-friendly execution details card and fix contrast issue",
+          "paths": [
+            "frontend/src/App.css",
+            "frontend/src/App.jsx"
+          ]
+        },
+        {
+          "sha": "af153ef7",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T13:02:24Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 146,
+          "deletions": 159,
+          "files_changed": 5,
+          "message": "feat: update evidence selection logic, plan validation, and polish inspectability UI",
+          "paths": [
+            "backend/app/main.py",
+            "backend/app/services/intent/planner.py",
+            "backend/app/services/intent/validator.py",
+            "backend/app/services/rag/retrieval.py",
+            "backend/tests/test_traversal_fix.py"
+          ]
+        },
+        {
+          "sha": "6a12b81c",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T13:25:28Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 20,
+          "deletions": 25,
+          "files_changed": 1,
+          "message": "docs: update Day 7 (v0.7) README, notes, and verification test results",
+          "paths": [
+            "README.md"
+          ]
+        },
+        {
+          "sha": "2a6c6a36",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-23T13:35:49Z",
+          "branches": [
+            "day-7-select-the-right-evidence"
+          ],
+          "additions": 69,
+          "deletions": 1,
+          "files_changed": 2,
+          "message": "updated docs",
+          "paths": [
+            "NOTES.md",
+            "TEST_RESULTS.md"
+          ]
         }
       ],
-      "commit_count_today": 3,
-      "additions_today": 109,
-      "deletions_today": 17,
-      "total_commits_default_branch": 40,
+      "commit_count_today": 17,
+      "additions_today": 1642,
+      "deletions_today": 944,
+      "total_commits_default_branch": 48,
       "first_commit_date": "2026-09-14",
-      "active_days": 8,
+      "active_days": 9,
       "active_dates": [
         "2026-09-14",
         "2026-09-15",
@@ -140,14 +398,16 @@
         "2026-09-18",
         "2026-09-20",
         "2026-09-21",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-09-23"
       ],
-      "file_count": 70,
+      "file_count": 71,
       "top_level": [
         ".gitignore",
         "NOTES.md",
         "README.md",
         "TEST_RESULTS.md",
+        "agents.md",
         "backend",
         "frontend"
       ],
@@ -167,18 +427,240 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-14T17:23:15Z",
-      "last_push_at": "2026-09-22T16:58:30Z",
+      "last_push_at": "2026-09-23T14:17:16Z",
       "is_empty": false,
       "branches": [
         "main"
       ],
-      "commits_today": [],
-      "commit_count_today": 0,
-      "additions_today": 0,
-      "deletions_today": 0,
-      "total_commits_default_branch": 43,
+      "commits_today": [
+        {
+          "sha": "5a550699",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T07:58:58Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 33,
+          "deletions": 0,
+          "files_changed": 2,
+          "message": "docs: record Neo4j test coverage",
+          "paths": [
+            "backend/tests/test_api.py",
+            "docs/TEST_RESULTS.md"
+          ]
+        },
+        {
+          "sha": "54029191",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T08:03:04Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 33,
+          "deletions": 0,
+          "files_changed": 2,
+          "message": "Merge pull request #7 from ExtremumAnalytics-CIR/day6-docs-update\n\ndocs: record Neo4j test coverage",
+          "paths": [
+            "backend/tests/test_api.py",
+            "docs/TEST_RESULTS.md"
+          ]
+        },
+        {
+          "sha": "3bcb10d2",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:34:28Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 104,
+          "deletions": 0,
+          "files_changed": 2,
+          "message": "feat: add evidence selection models",
+          "paths": [
+            "backend/app/selection/__init__.py",
+            "backend/app/selection/selection_models.py"
+          ]
+        },
+        {
+          "sha": "f8a195c9",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:37:53Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 282,
+          "deletions": 0,
+          "files_changed": 3,
+          "message": "feat: analyze evidence selection questions",
+          "paths": [
+            "backend/app/models.py",
+            "backend/app/selection/question_analyzer.py",
+            "backend/app/semantics/definitions.py"
+          ]
+        },
+        {
+          "sha": "5c330500",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:40:13Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 246,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "feat: plan required evidence sources",
+          "paths": [
+            "backend/app/selection/evidence_planner.py"
+          ]
+        },
+        {
+          "sha": "0231f2f9",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:42:22Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 22,
+          "deletions": 2,
+          "files_changed": 1,
+          "message": "feat: expose evidence selection API",
+          "paths": [
+            "backend/app/main.py"
+          ]
+        },
+        {
+          "sha": "d39d460a",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:43:41Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 101,
+          "deletions": 2,
+          "files_changed": 1,
+          "message": "test: cover evidence source selection",
+          "paths": [
+            "backend/tests/test_api.py"
+          ]
+        },
+        {
+          "sha": "bff4701b",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:45:19Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 3,
+          "deletions": 3,
+          "files_changed": 2,
+          "message": "chore: update frontend version to v0.7",
+          "paths": [
+            "frontend/package-lock.json",
+            "frontend/package.json"
+          ]
+        },
+        {
+          "sha": "cf0d9519",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:47:00Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 713,
+          "deletions": 17,
+          "files_changed": 2,
+          "message": "feat: show evidence source selection in UI",
+          "paths": [
+            "frontend/src/App.css",
+            "frontend/src/App.tsx"
+          ]
+        },
+        {
+          "sha": "87d09a81",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:50:29Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 144,
+          "deletions": 16,
+          "files_changed": 5,
+          "message": "docs: record Day 7 evidence source selection",
+          "paths": [
+            "README.md",
+            "docs/ARCHITECTURE.md",
+            "docs/PROGRESS.md",
+            "docs/TECHNICAL_DECISIONS.md",
+            "docs/TEST_RESULTS.md"
+          ]
+        },
+        {
+          "sha": "cd2d9ba7",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T13:59:26Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 10,
+          "deletions": 3,
+          "files_changed": 3,
+          "message": "docs: record Day 7 source selection test results",
+          "paths": [
+            "README.md",
+            "docs/PROGRESS.md",
+            "docs/TEST_RESULTS.md"
+          ]
+        },
+        {
+          "sha": "52990a5f",
+          "author": "Samridhi Jain",
+          "login": "samridhiiiijain",
+          "date": "2026-09-23T14:17:07Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 1622,
+          "deletions": 40,
+          "files_changed": 17,
+          "message": "Merge pull request #8 from ExtremumAnalytics-CIR/day-7-evidence-selection\n\nDay 7 evidence selection",
+          "paths": [
+            "README.md",
+            "backend/app/main.py",
+            "backend/app/models.py",
+            "backend/app/selection/__init__.py",
+            "backend/app/selection/evidence_planner.py",
+            "backend/app/selection/question_analyzer.py",
+            "backend/app/selection/selection_models.py",
+            "backend/app/semantics/definitions.py",
+            "backend/tests/test_api.py",
+            "docs/ARCHITECTURE.md",
+            "docs/PROGRESS.md",
+            "docs/TECHNICAL_DECISIONS.md",
+            "docs/TEST_RESULTS.md",
+            "frontend/package-lock.json",
+            "frontend/package.json",
+            "frontend/src/App.css",
+            "frontend/src/App.tsx"
+          ]
+        }
+      ],
+      "commit_count_today": 12,
+      "additions_today": 3313,
+      "deletions_today": 83,
+      "total_commits_default_branch": 55,
       "first_commit_date": "2026-09-14",
-      "active_days": 7,
+      "active_days": 8,
       "active_dates": [
         "2026-09-14",
         "2026-09-15",
@@ -186,9 +668,10 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-21",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-09-23"
       ],
-      "file_count": 63,
+      "file_count": 68,
       "top_level": [
         ".env.example",
         ".gitignore",
@@ -214,24 +697,210 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-14T12:55:51Z",
-      "last_push_at": "2026-09-22T15:27:26Z",
+      "last_push_at": "2026-09-23T14:00:56Z",
       "is_empty": false,
       "branches": [
         "day-4-linked-evidence",
         "day-5-relationships",
         "day-5-ui-integration",
         "day-6-business-meaning",
+        "day-7-evidence-selection",
         "fix-day-6-semantic-followup",
         "fix-session-action-relationship",
         "main"
       ],
-      "commits_today": [],
-      "commit_count_today": 0,
-      "additions_today": 0,
-      "deletions_today": 0,
-      "total_commits_default_branch": 25,
+      "commits_today": [
+        {
+          "sha": "60dc4d57",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T06:40:00Z",
+          "branches": [
+            "day-7-evidence-selection",
+            "fix-day-6-semantic-followup",
+            "main"
+          ],
+          "additions": 39,
+          "deletions": 1,
+          "files_changed": 3,
+          "message": "fix: clean legacy session action graph relationships",
+          "paths": [
+            "README.md",
+            "backend/tests/test_graph_relationships.py",
+            "scripts/load_graph.py"
+          ]
+        },
+        {
+          "sha": "6fa0ae04",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T06:43:49Z",
+          "branches": [
+            "day-7-evidence-selection",
+            "main"
+          ],
+          "additions": 1172,
+          "deletions": 464,
+          "files_changed": 9,
+          "message": "Merge pull request #6 from ExtremumAnalytics-CIR/fix-day-6-semantic-followup\n\nfix: apply semantic follow-up requirements",
+          "paths": [
+            "README.md",
+            "backend/app/models.py",
+            "backend/app/semantics/business_terms.py",
+            "backend/app/services/semantic_service.py",
+            "backend/tests/test_graph_relationships.py",
+            "backend/tests/test_semantics.py",
+            "frontend/src/App.jsx",
+            "frontend/src/styles.css",
+            "scripts/load_graph.py"
+          ]
+        },
+        {
+          "sha": "56ed587e",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T13:44:55Z",
+          "branches": [
+            "day-7-evidence-selection",
+            "main"
+          ],
+          "additions": 820,
+          "deletions": 0,
+          "files_changed": 5,
+          "message": "feat: add evidence selection planning",
+          "paths": [
+            "backend/app/evidence_selection/__init__.py",
+            "backend/app/evidence_selection/executor.py",
+            "backend/app/evidence_selection/models.py",
+            "backend/app/evidence_selection/selector.py",
+            "backend/app/services/assistant_service.py"
+          ]
+        },
+        {
+          "sha": "e7d44283",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T13:45:25Z",
+          "branches": [
+            "day-7-evidence-selection",
+            "main"
+          ],
+          "additions": 31,
+          "deletions": 4,
+          "files_changed": 2,
+          "message": "feat: integrate evidence selection API",
+          "paths": [
+            "backend/app/main.py",
+            "backend/tests/test_api.py"
+          ]
+        },
+        {
+          "sha": "3720962a",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T13:46:00Z",
+          "branches": [
+            "day-7-evidence-selection",
+            "main"
+          ],
+          "additions": 118,
+          "deletions": 1,
+          "files_changed": 3,
+          "message": "refactor: align evidence retrieval with source ownership",
+          "paths": [
+            "backend/app/graph/graph_repository.py",
+            "backend/app/repositories/participant_repository.py",
+            "backend/app/services/relationship_service.py"
+          ]
+        },
+        {
+          "sha": "46bb506f",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T13:46:25Z",
+          "branches": [
+            "day-7-evidence-selection",
+            "main"
+          ],
+          "additions": 361,
+          "deletions": 51,
+          "files_changed": 2,
+          "message": "feat: surface evidence selection in coaching UI",
+          "paths": [
+            "frontend/src/App.jsx",
+            "frontend/src/styles.css"
+          ]
+        },
+        {
+          "sha": "8e5c8b50",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T13:46:52Z",
+          "branches": [
+            "day-7-evidence-selection",
+            "main"
+          ],
+          "additions": 2041,
+          "deletions": 735,
+          "files_changed": 1,
+          "message": "docs: document day 7 evidence selection",
+          "paths": [
+            "README.md"
+          ]
+        },
+        {
+          "sha": "8d30ddcb",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T13:50:39Z",
+          "branches": [
+            "day-7-evidence-selection",
+            "main"
+          ],
+          "additions": 282,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "test: add day 7 evidence selection tests",
+          "paths": [
+            "backend/tests/test_evidence_selection.py"
+          ]
+        },
+        {
+          "sha": "6cb07e5e",
+          "author": "Divya Sharma",
+          "login": "Divya-Sharma25",
+          "date": "2026-09-23T14:00:56Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 3653,
+          "deletions": 791,
+          "files_changed": 14,
+          "message": "Merge pull request #7 from ExtremumAnalytics-CIR/day-7-evidence-selection\n\nfeat: implement day 7 evidence selection",
+          "paths": [
+            "README.md",
+            "backend/app/evidence_selection/__init__.py",
+            "backend/app/evidence_selection/executor.py",
+            "backend/app/evidence_selection/models.py",
+            "backend/app/evidence_selection/selector.py",
+            "backend/app/graph/graph_repository.py",
+            "backend/app/main.py",
+            "backend/app/repositories/participant_repository.py",
+            "backend/app/services/assistant_service.py",
+            "backend/app/services/relationship_service.py",
+            "backend/tests/test_api.py",
+            "backend/tests/test_evidence_selection.py",
+            "frontend/src/App.jsx",
+            "frontend/src/styles.css"
+          ]
+        }
+      ],
+      "commit_count_today": 9,
+      "additions_today": 8517,
+      "deletions_today": 2047,
+      "total_commits_default_branch": 38,
       "first_commit_date": "2026-09-14",
-      "active_days": 8,
+      "active_days": 9,
       "active_dates": [
         "2026-09-14",
         "2026-09-15",
@@ -240,9 +909,10 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-21",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-09-23"
       ],
-      "file_count": 63,
+      "file_count": 69,
       "top_level": [
         ".env.example",
         ".gitignore",
@@ -271,7 +941,7 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-15T07:15:09Z",
-      "last_push_at": "2026-09-22T16:40:00Z",
+      "last_push_at": "2026-09-23T14:51:17Z",
       "is_empty": false,
       "branches": [
         "day_4",
@@ -279,12 +949,110 @@
         "day-6-business-meaning",
         "day-6-graph-path",
         "day-6-item-graph",
+        "day-7-evidence-selection",
         "main"
       ],
-      "commits_today": [],
-      "commit_count_today": 0,
-      "additions_today": 0,
-      "deletions_today": 0,
+      "commits_today": [
+        {
+          "sha": "66a0487e",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-23T14:02:02Z",
+          "branches": [
+            "day-7-evidence-selection"
+          ],
+          "additions": 45,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "feat: define evidence requirements by intent",
+          "paths": [
+            "backend/evidence/evidence_planner.py"
+          ]
+        },
+        {
+          "sha": "d8621751",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-23T14:07:27Z",
+          "branches": [
+            "day-7-evidence-selection"
+          ],
+          "additions": 33,
+          "deletions": 1,
+          "files_changed": 1,
+          "message": "feat: add representative evidence questions",
+          "paths": [
+            "backend/evidence/evidence_planner.py"
+          ]
+        },
+        {
+          "sha": "c5f6ac01",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-23T14:11:23Z",
+          "branches": [
+            "day-7-evidence-selection"
+          ],
+          "additions": 55,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "test: cover day 7 evidence selection",
+          "paths": [
+            "tests/test_day7_evidence_selection.py"
+          ]
+        },
+        {
+          "sha": "35fc2d73",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-23T14:37:06Z",
+          "branches": [
+            "day-7-evidence-selection"
+          ],
+          "additions": 26,
+          "deletions": 1,
+          "files_changed": 1,
+          "message": "feat: expose evidence plans in ask responses",
+          "paths": [
+            "backend/main.py"
+          ]
+        },
+        {
+          "sha": "bcf32c74",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-23T14:45:07Z",
+          "branches": [
+            "day-7-evidence-selection"
+          ],
+          "additions": 183,
+          "deletions": 1,
+          "files_changed": 1,
+          "message": "feat: select evidence from question requirements",
+          "paths": [
+            "backend/evidence/evidence_planner.py"
+          ]
+        },
+        {
+          "sha": "d6950bba",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-23T14:51:11Z",
+          "branches": [
+            "day-7-evidence-selection"
+          ],
+          "additions": 15,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "feat: reject unsupported evidence paths",
+          "paths": [
+            "backend/main.py"
+          ]
+        }
+      ],
+      "commit_count_today": 6,
+      "additions_today": 357,
+      "deletions_today": 3,
       "total_commits_default_branch": 40,
       "first_commit_date": "2026-09-15",
       "active_days": 6,
@@ -326,30 +1094,130 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-15T13:01:57Z",
-      "last_push_at": "2026-09-22T13:03:55Z",
+      "last_push_at": "2026-09-23T13:20:20Z",
       "is_empty": false,
       "branches": [
         "day6-compliance-monitoring",
+        "day7-evidence-selection",
         "day-5-relationship-modelling",
         "main"
       ],
-      "commits_today": [],
-      "commit_count_today": 0,
-      "additions_today": 0,
-      "deletions_today": 0,
-      "total_commits_default_branch": 17,
+      "commits_today": [
+        {
+          "sha": "14651a33",
+          "author": "parveshruhal",
+          "login": "parveshruhal",
+          "date": "2026-09-23T10:23:46Z",
+          "branches": [
+            "day6-compliance-monitoring",
+            "day7-evidence-selection",
+            "main"
+          ],
+          "additions": 3,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "Add .env.example with placeholder values",
+          "paths": [
+            ".env.example"
+          ]
+        },
+        {
+          "sha": "dc1eb652",
+          "author": "parveshruhal",
+          "login": "parveshruhal",
+          "date": "2026-09-23T11:10:12Z",
+          "branches": [
+            "day6-compliance-monitoring",
+            "day7-evidence-selection",
+            "main"
+          ],
+          "additions": 0,
+          "deletions": 0,
+          "files_changed": 0,
+          "message": "Merge branch 'main' of https://github.com/ExtremumAnalytics-CIR/EA-P6-AI-Legal-Document---Compliance-Assistant into day6-compliance-monitoring",
+          "paths": []
+        },
+        {
+          "sha": "3863cd99",
+          "author": "parveshruhal",
+          "login": "parveshruhal",
+          "date": "2026-09-23T11:38:09Z",
+          "branches": [
+            "day7-evidence-selection",
+            "main"
+          ],
+          "additions": 267,
+          "deletions": 111,
+          "files_changed": 3,
+          "message": "Day 7 - Select the Right Evidence (v0.7): Added query planner to replace keyword routing and implemented evidence requirements for 5 query types",
+          "paths": [
+            "backend/evidence_linker.py",
+            "backend/query_planner.py",
+            "tests/test_day7_selection.py"
+          ]
+        },
+        {
+          "sha": "71de95e8",
+          "author": "parveshruhal",
+          "login": "parveshruhal",
+          "date": "2026-09-23T11:56:41Z",
+          "branches": [
+            "day7-evidence-selection",
+            "main"
+          ],
+          "additions": 31,
+          "deletions": 5,
+          "files_changed": 4,
+          "message": "Day 7 - Fixed regressions and restored test suite",
+          "paths": [
+            "backend/semantic_layer.py",
+            "tests/test_day1_core.py",
+            "tests/test_day2_structured.py",
+            "tests/test_day4_evidence_linking.py"
+          ]
+        },
+        {
+          "sha": "15ec6c19",
+          "author": "Parvesh",
+          "login": "parveshruhal",
+          "date": "2026-09-23T13:20:20Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 301,
+          "deletions": 116,
+          "files_changed": 8,
+          "message": "Merge pull request #3 from ExtremumAnalytics-CIR/day7-evidence-selection\n\nDay7 evidence selection",
+          "paths": [
+            ".env.example",
+            "backend/evidence_linker.py",
+            "backend/query_planner.py",
+            "backend/semantic_layer.py",
+            "tests/test_day1_core.py",
+            "tests/test_day2_structured.py",
+            "tests/test_day4_evidence_linking.py",
+            "tests/test_day7_selection.py"
+          ]
+        }
+      ],
+      "commit_count_today": 5,
+      "additions_today": 602,
+      "deletions_today": 232,
+      "total_commits_default_branch": 22,
       "first_commit_date": "2026-09-15",
-      "active_days": 6,
+      "active_days": 7,
       "active_dates": [
         "2026-09-15",
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
         "2026-09-21",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-09-23"
       ],
-      "file_count": 82,
+      "file_count": 86,
       "top_level": [
+        ".env.example",
         ".gitignore",
         "README.md",
         "backend",
@@ -376,7 +1244,7 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-22T14:04:00Z",
-      "last_push_at": "2026-09-22T15:33:59Z",
+      "last_push_at": "2026-09-23T13:52:28Z",
       "is_empty": false,
       "branches": [
         "day-5-relationships",
@@ -384,28 +1252,67 @@
         "day-7-intent-source-selection",
         "main"
       ],
-      "commits_today": [],
-      "commit_count_today": 0,
-      "additions_today": 0,
-      "deletions_today": 0,
-      "total_commits_default_branch": 6,
+      "commits_today": [
+        {
+          "sha": "175f12ef",
+          "author": "Saurav Giri",
+          "login": null,
+          "date": "2026-09-23T13:46:08Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 2079,
+          "deletions": 451,
+          "files_changed": 21,
+          "message": "feat: build Day 1 foundation",
+          "paths": [
+            ".gitignore",
+            "README.md",
+            "backend/main.py",
+            "backend/requirements.txt",
+            "backend/tests/test_main.py",
+            "frontend/.gitignore",
+            "frontend/.oxlintrc.json",
+            "frontend/index.html",
+            "frontend/package-lock.json",
+            "frontend/package.json",
+            "frontend/public/favicon.svg",
+            "frontend/public/icons.svg",
+            "frontend/src/App.css",
+            "frontend/src/App.jsx",
+            "frontend/src/assets/hero.png",
+            "frontend/src/assets/react.svg",
+            "frontend/src/assets/vite.svg",
+            "frontend/src/index.css",
+            "frontend/src/main.jsx",
+            "frontend/static/index.html",
+            "frontend/vite.config.js"
+          ]
+        }
+      ],
+      "commit_count_today": 1,
+      "additions_today": 2079,
+      "deletions_today": 451,
+      "total_commits_default_branch": 7,
       "first_commit_date": "2026-09-15",
-      "active_days": 2,
+      "active_days": 3,
       "active_dates": [
         "2026-09-15",
-        "2026-09-19"
+        "2026-09-19",
+        "2026-09-23"
       ],
-      "file_count": 10,
+      "file_count": 27,
       "top_level": [
         ".gitignore",
+        "README.md",
         "backend",
         "frontend"
       ],
       "markers": {
-        "has_readme": false,
-        "has_tests": false,
-        "has_requirements": false,
-        "has_frontend": false,
+        "has_readme": true,
+        "has_tests": true,
+        "has_requirements": true,
+        "has_frontend": true,
         "mentions_langgraph": false
       }
     },
@@ -417,11 +1324,12 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-15T12:47:30Z",
-      "last_push_at": "2026-09-22T20:44:22Z",
+      "last_push_at": "2026-09-23T11:05:50Z",
       "is_empty": false,
       "branches": [
         "DAY5_GRAPH",
         "DAY6_ONTOLOGY",
+        "day7",
         "main"
       ],
       "commits_today": [
@@ -431,6 +1339,7 @@
           "login": "Jyotsnakapoor123",
           "date": "2026-09-22T20:39:04Z",
           "branches": [
+            "day7",
             "main"
           ],
           "additions": 74,
@@ -451,6 +1360,7 @@
           "login": "Jyotsnakapoor123",
           "date": "2026-09-22T20:41:59Z",
           "branches": [
+            "day7",
             "main"
           ],
           "additions": 0,
@@ -458,23 +1368,137 @@
           "files_changed": 0,
           "message": "Merge branch 'main' of https://github.com/ExtremumAnalytics-CIR/EA-P8-AI-E-Commerce-Customer-Product-Intelligence-Assistant",
           "paths": []
+        },
+        {
+          "sha": "485b1aef",
+          "author": "Jyotsna",
+          "login": "Jyotsnakapoor123",
+          "date": "2026-09-23T10:47:31Z",
+          "branches": [
+            "day7",
+            "main"
+          ],
+          "additions": 99,
+          "deletions": 2,
+          "files_changed": 2,
+          "message": "day7: implement evidence planner and ontology traversal rules",
+          "paths": [
+            "backend/evidence_planner.py",
+            "backend/ontology.py"
+          ]
+        },
+        {
+          "sha": "fae5e582",
+          "author": "Jyotsna",
+          "login": "Jyotsnakapoor123",
+          "date": "2026-09-23T10:47:46Z",
+          "branches": [
+            "day7",
+            "main"
+          ],
+          "additions": 67,
+          "deletions": 7,
+          "files_changed": 2,
+          "message": "day7: wire evidence plan into /ask router with regression tests",
+          "paths": [
+            "backend/main.py",
+            "backend/test_main.py"
+          ]
+        },
+        {
+          "sha": "1e780954",
+          "author": "Jyotsna",
+          "login": "Jyotsnakapoor123",
+          "date": "2026-09-23T10:48:02Z",
+          "branches": [
+            "day7",
+            "main"
+          ],
+          "additions": 89,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "day7: add unit tests for evidence planner source mapping and abstention",
+          "paths": [
+            "backend/test_evidence_planner.py"
+          ]
+        },
+        {
+          "sha": "4f42f44d",
+          "author": "Jyotsna",
+          "login": "Jyotsnakapoor123",
+          "date": "2026-09-23T10:48:18Z",
+          "branches": [
+            "day7",
+            "main"
+          ],
+          "additions": 45,
+          "deletions": 0,
+          "files_changed": 2,
+          "message": "day7: add evidence plan badge and clarification action UI",
+          "paths": [
+            "frontend/src/App.css",
+            "frontend/src/App.jsx"
+          ]
+        },
+        {
+          "sha": "77312b66",
+          "author": "Jyotsna",
+          "login": "Jyotsnakapoor123",
+          "date": "2026-09-23T10:48:48Z",
+          "branches": [
+            "day7",
+            "main"
+          ],
+          "additions": 168,
+          "deletions": 67,
+          "files_changed": 2,
+          "message": "day7: update README and test_result benchmark report for v0.7",
+          "paths": [
+            "README.md",
+            "backend/test_result.md"
+          ]
+        },
+        {
+          "sha": "337da33a",
+          "author": "Jyotsna",
+          "login": "Jyotsnakapoor123",
+          "date": "2026-09-23T11:05:50Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 468,
+          "deletions": 76,
+          "files_changed": 9,
+          "message": "Merge pull request #6 from ExtremumAnalytics-CIR/day7\n\nDay7",
+          "paths": [
+            "README.md",
+            "backend/evidence_planner.py",
+            "backend/main.py",
+            "backend/ontology.py",
+            "backend/test_evidence_planner.py",
+            "backend/test_main.py",
+            "backend/test_result.md",
+            "frontend/src/App.css",
+            "frontend/src/App.jsx"
+          ]
         }
       ],
-      "commit_count_today": 2,
-      "additions_today": 74,
-      "deletions_today": 65,
-      "total_commits_default_branch": 47,
+      "commit_count_today": 8,
+      "additions_today": 1010,
+      "deletions_today": 217,
+      "total_commits_default_branch": 53,
       "first_commit_date": "2026-09-15",
-      "active_days": 6,
+      "active_days": 7,
       "active_dates": [
         "2026-09-15",
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
         "2026-09-21",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-09-23"
       ],
-      "file_count": 63,
+      "file_count": 65,
       "top_level": [
         ".gitignore",
         "BENCHMARK.md",
@@ -503,22 +1527,130 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-14T13:16:37Z",
-      "last_push_at": "2026-09-22T14:58:09Z",
+      "last_push_at": "2026-09-23T11:22:02Z",
       "is_empty": false,
       "branches": [
         "feature/day4-connect-evidence",
         "feature/day5-relationships",
         "feature/day6-semantic-governance",
+        "feature/frontend",
         "fix/day5-attribution-and-tests",
+        "fix/graph-attribution",
         "main"
       ],
-      "commits_today": [],
-      "commit_count_today": 0,
-      "additions_today": 0,
-      "deletions_today": 0,
-      "total_commits_default_branch": 42,
+      "commits_today": [
+        {
+          "sha": "a4ce9788",
+          "author": "Rudra",
+          "login": "rudramehta-w",
+          "date": "2026-09-23T05:53:50Z",
+          "branches": [
+            "feature/frontend",
+            "fix/graph-attribution",
+            "main"
+          ],
+          "additions": 1159,
+          "deletions": 1082,
+          "files_changed": 12,
+          "message": "feat(ui): overhaul dashboard with Geist design system",
+          "paths": [
+            ".gitignore",
+            "frontend/package-lock.json",
+            "frontend/package.json",
+            "frontend/src/App.jsx",
+            "frontend/src/components/CampaignTable.jsx",
+            "frontend/src/components/MetricsSummary.jsx",
+            "frontend/src/components/QueryBar.jsx",
+            "frontend/src/components/ResponseViewer.jsx",
+            "frontend/src/components/Sidebar.jsx",
+            "frontend/src/components/Topbar.jsx",
+            "frontend/src/index.css",
+            "frontend/vite.config.js"
+          ]
+        },
+        {
+          "sha": "5e2f982b",
+          "author": "Rudra Mehta",
+          "login": "rudramehta-w",
+          "date": "2026-09-23T06:47:44Z",
+          "branches": [
+            "fix/graph-attribution",
+            "main"
+          ],
+          "additions": 1159,
+          "deletions": 1082,
+          "files_changed": 12,
+          "message": "Merge pull request #5 from ExtremumAnalytics-CIR/feature/frontend\n\nfeat(ui): overhaul dashboard with Geist design system",
+          "paths": [
+            ".gitignore",
+            "frontend/package-lock.json",
+            "frontend/package.json",
+            "frontend/src/App.jsx",
+            "frontend/src/components/CampaignTable.jsx",
+            "frontend/src/components/MetricsSummary.jsx",
+            "frontend/src/components/QueryBar.jsx",
+            "frontend/src/components/ResponseViewer.jsx",
+            "frontend/src/components/Sidebar.jsx",
+            "frontend/src/components/Topbar.jsx",
+            "frontend/src/index.css",
+            "frontend/vite.config.js"
+          ]
+        },
+        {
+          "sha": "f131c00c",
+          "author": "Rudra",
+          "login": "rudramehta-w",
+          "date": "2026-09-23T11:18:59Z",
+          "branches": [
+            "fix/graph-attribution"
+          ],
+          "additions": 3,
+          "deletions": 3,
+          "files_changed": 1,
+          "message": "chore: update gitignore",
+          "paths": [
+            ".gitignore"
+          ]
+        },
+        {
+          "sha": "726e1553",
+          "author": "Rudra",
+          "login": "rudramehta-w",
+          "date": "2026-09-23T11:18:59Z",
+          "branches": [
+            "fix/graph-attribution"
+          ],
+          "additions": 2,
+          "deletions": 2,
+          "files_changed": 1,
+          "message": "fix(ontology): strictly isolate touchpoints by campaign and document limitations",
+          "paths": [
+            "backend/app/services/ontology.py"
+          ]
+        },
+        {
+          "sha": "7bde3919",
+          "author": "Rudra",
+          "login": "rudramehta-w",
+          "date": "2026-09-23T11:18:59Z",
+          "branches": [
+            "fix/graph-attribution"
+          ],
+          "additions": 2,
+          "deletions": 3,
+          "files_changed": 1,
+          "message": "fix(graph): scrub PII from Neo4j ingestion",
+          "paths": [
+            "backend/app/services/neo4j_svc.py"
+          ]
+        }
+      ],
+      "commit_count_today": 5,
+      "additions_today": 2325,
+      "deletions_today": 2172,
+      "total_commits_default_branch": 44,
       "first_commit_date": "2026-09-14",
-      "active_days": 7,
+      "active_days": 8,
       "active_dates": [
         "2026-09-14",
         "2026-09-15",
@@ -526,9 +1658,10 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-21",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-09-23"
       ],
-      "file_count": 69,
+      "file_count": 68,
       "top_level": [
         ".env.example",
         ".gitignore",
