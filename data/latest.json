@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T15:20:21Z",
+  "generated_at_utc": "2026-09-24T17:33:41Z",
   "local_date": "2026-09-24",
   "window_start_utc": "2026-09-23T18:30:00Z",
   "day1_date": "2026-09-15",
@@ -85,10 +85,9 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-14T08:48:18Z",
-      "last_push_at": "2026-09-24T12:41:38Z",
+      "last_push_at": "2026-09-24T17:28:03Z",
       "is_empty": false,
       "branches": [
-        "day-8-langgraph-orchestration",
         "main"
       ],
       "commits_today": [
@@ -98,7 +97,6 @@
           "login": "aasthasehgal16",
           "date": "2026-09-23T19:11:04Z",
           "branches": [
-            "day-8-langgraph-orchestration",
             "main"
           ],
           "additions": 621,
@@ -128,7 +126,7 @@
           "login": "aasthasehgal16",
           "date": "2026-09-24T06:51:04Z",
           "branches": [
-            "day-8-langgraph-orchestration"
+            "main"
           ],
           "additions": 381,
           "deletions": 0,
@@ -146,7 +144,7 @@
           "login": "aasthasehgal16",
           "date": "2026-09-24T08:04:33Z",
           "branches": [
-            "day-8-langgraph-orchestration"
+            "main"
           ],
           "additions": 58,
           "deletions": 170,
@@ -162,7 +160,7 @@
           "login": "aasthasehgal16",
           "date": "2026-09-24T09:45:41Z",
           "branches": [
-            "day-8-langgraph-orchestration"
+            "main"
           ],
           "additions": 108,
           "deletions": 9,
@@ -182,7 +180,7 @@
           "login": "aasthasehgal16",
           "date": "2026-09-24T09:46:39Z",
           "branches": [
-            "day-8-langgraph-orchestration"
+            "main"
           ],
           "additions": 145,
           "deletions": 1,
@@ -203,7 +201,7 @@
           "login": "aasthasehgal16",
           "date": "2026-09-24T12:40:41Z",
           "branches": [
-            "day-8-langgraph-orchestration"
+            "main"
           ],
           "additions": 145,
           "deletions": 35,
@@ -220,7 +218,7 @@
           "login": "aasthasehgal16",
           "date": "2026-09-24T12:41:16Z",
           "branches": [
-            "day-8-langgraph-orchestration"
+            "main"
           ],
           "additions": 595,
           "deletions": 627,
@@ -230,14 +228,48 @@
             "frontend/src/App.css",
             "frontend/src/App.jsx"
           ]
+        },
+        {
+          "sha": "601621f1",
+          "author": "Aastha Sehgal",
+          "login": "aasthasehgal16",
+          "date": "2026-09-24T17:27:57Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 1432,
+          "deletions": 842,
+          "files_changed": 19,
+          "message": "Merge pull request #8 from ExtremumAnalytics-CIR/day-8-langgraph-orchestration\n\nDay 8 langgraph orchestration",
+          "paths": [
+            "NOTES.md",
+            "TEST_RESULTS.md",
+            "backend/app/main.py",
+            "backend/app/models/schemas.py",
+            "backend/app/services/documents/__init__.py",
+            "backend/app/services/documents/retrieval.py",
+            "backend/app/services/graph/impact.py",
+            "backend/app/services/intent/planner.py",
+            "backend/app/services/orchestration/__init__.py",
+            "backend/app/services/orchestration/graph.py",
+            "backend/app/services/orchestration/nodes.py",
+            "backend/app/services/orchestration/state.py",
+            "backend/app/services/sql/queries.py",
+            "backend/requirements.txt",
+            "backend/tests/test_ask_structured.py",
+            "backend/tests/test_langgraph_workflow.py",
+            "backend/tests/test_semantic.py",
+            "frontend/src/App.css",
+            "frontend/src/App.jsx"
+          ]
         }
       ],
-      "commit_count_today": 7,
-      "additions_today": 2053,
-      "deletions_today": 1185,
-      "total_commits_default_branch": 61,
+      "commit_count_today": 8,
+      "additions_today": 3485,
+      "deletions_today": 2027,
+      "total_commits_default_branch": 68,
       "first_commit_date": "2026-09-14",
-      "active_days": 9,
+      "active_days": 10,
       "active_dates": [
         "2026-09-14",
         "2026-09-15",
@@ -247,9 +279,10 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ],
-      "file_count": 74,
+      "file_count": 82,
       "top_level": [
         ".gitignore",
         "NOTES.md",
@@ -264,7 +297,7 @@
         "has_tests": true,
         "has_requirements": true,
         "has_frontend": true,
-        "mentions_langgraph": false
+        "mentions_langgraph": true
       }
     },
     {
@@ -561,7 +594,7 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-15T07:15:09Z",
-      "last_push_at": "2026-09-23T16:14:37Z",
+      "last_push_at": "2026-09-24T15:52:43Z",
       "is_empty": false,
       "branches": [
         "day_4",
@@ -570,15 +603,246 @@
         "day-6-graph-path",
         "day-6-item-graph",
         "day-7-evidence-selection",
+        "day-8-langgraph",
         "main"
       ],
-      "commits_today": [],
-      "commit_count_today": 0,
-      "additions_today": 0,
-      "deletions_today": 0,
-      "total_commits_default_branch": 50,
+      "commits_today": [
+        {
+          "sha": "ee2483de",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T13:31:51Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 48,
+          "deletions": 0,
+          "files_changed": 3,
+          "message": "feat: add LangGraph workflow state",
+          "paths": [
+            "backend/workflow/__init__.py",
+            "backend/workflow/graph.py",
+            "backend/workflow/state.py"
+          ]
+        },
+        {
+          "sha": "43ac491e",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T13:39:54Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 262,
+          "deletions": 4,
+          "files_changed": 1,
+          "message": "feat: add validated evidence routing workflow",
+          "paths": [
+            "backend/workflow/graph.py"
+          ]
+        },
+        {
+          "sha": "a5ea2969",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T13:43:10Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 8,
+          "deletions": 1,
+          "files_changed": 1,
+          "message": "feat: add procurement identifiers to workflow state",
+          "paths": [
+            "backend/workflow/state.py"
+          ]
+        },
+        {
+          "sha": "4ba7799e",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T14:05:53Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 75,
+          "deletions": 74,
+          "files_changed": 2,
+          "message": "refactor: reuse procurement ID extraction helpers",
+          "paths": [
+            "backend/main.py",
+            "backend/utils.py"
+          ]
+        },
+        {
+          "sha": "0c64effb",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T14:12:43Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 30,
+          "deletions": 11,
+          "files_changed": 1,
+          "message": "feat: extract procurement identifiers in workflow",
+          "paths": [
+            "backend/workflow/graph.py"
+          ]
+        },
+        {
+          "sha": "d280e2a1",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T14:38:36Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 467,
+          "deletions": 158,
+          "files_changed": 1,
+          "message": "feat: execute validated SQL evidence in workflow",
+          "paths": [
+            "backend/workflow/graph.py"
+          ]
+        },
+        {
+          "sha": "9ee0f2cb",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T14:40:37Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 18,
+          "deletions": 2,
+          "files_changed": 1,
+          "message": "feat: expose LangGraph workflow through API",
+          "paths": [
+            "backend/main.py"
+          ]
+        },
+        {
+          "sha": "70579987",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T14:51:35Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 36,
+          "deletions": 23,
+          "files_changed": 1,
+          "message": "fix: defer RAG initialization in workflow",
+          "paths": [
+            "backend/workflow/graph.py"
+          ]
+        },
+        {
+          "sha": "2eed0d58",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T15:00:15Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 35,
+          "deletions": 1,
+          "files_changed": 1,
+          "message": "feat: expose LangGraph workflow through API",
+          "paths": [
+            "backend/main.py"
+          ]
+        },
+        {
+          "sha": "1f9a2a26",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T15:04:08Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 41,
+          "deletions": 0,
+          "files_changed": 1,
+          "message": "test: cover Day 8 workflow success and rejection",
+          "paths": [
+            "tests/test_day8_workflow.py"
+          ]
+        },
+        {
+          "sha": "d7b4a3a7",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T15:12:27Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 1,
+          "deletions": 1,
+          "files_changed": 1,
+          "message": "chore: add LangGraph dependency",
+          "paths": [
+            "backend/requirements.txt"
+          ]
+        },
+        {
+          "sha": "ba3ba6f6",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T15:16:56Z",
+          "branches": [
+            "day-8-langgraph",
+            "main"
+          ],
+          "additions": 2,
+          "deletions": 1,
+          "files_changed": 1,
+          "message": "fix: correct LangGraph dependency entry",
+          "paths": [
+            "backend/requirements.txt"
+          ]
+        },
+        {
+          "sha": "306ee857",
+          "author": "Nitin Sharma",
+          "login": "Nitinsharma007-tech",
+          "date": "2026-09-24T15:52:43Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 825,
+          "deletions": 78,
+          "files_changed": 7,
+          "message": "Merge pull request #8 from ExtremumAnalytics-CIR/day-8-langgraph\n\nDay 8: Add LangGraph procurement workflow",
+          "paths": [
+            "backend/main.py",
+            "backend/requirements.txt",
+            "backend/utils.py",
+            "backend/workflow/__init__.py",
+            "backend/workflow/graph.py",
+            "backend/workflow/state.py",
+            "tests/test_day8_workflow.py"
+          ]
+        }
+      ],
+      "commit_count_today": 13,
+      "additions_today": 1848,
+      "deletions_today": 354,
+      "total_commits_default_branch": 63,
       "first_commit_date": "2026-09-15",
-      "active_days": 7,
+      "active_days": 8,
       "active_dates": [
         "2026-09-15",
         "2026-09-16",
@@ -586,9 +850,10 @@
         "2026-09-18",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ],
-      "file_count": 92,
+      "file_count": 97,
       "top_level": [
         ".gitignore",
         "Documents",
@@ -1013,7 +1278,7 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-14T13:16:37Z",
-      "last_push_at": "2026-09-24T15:15:59Z",
+      "last_push_at": "2026-09-24T15:24:15Z",
       "is_empty": false,
       "branches": [
         "feature/day4-connect-evidence",
@@ -1380,7 +1645,8 @@
           "login": "rudramehta-w",
           "date": "2026-09-24T11:51:15Z",
           "branches": [
-            "feature/day8-langgraph-orchestration"
+            "feature/day8-langgraph-orchestration",
+            "main"
           ],
           "additions": 10,
           "deletions": 9,
@@ -1399,7 +1665,8 @@
           "login": "rudramehta-w",
           "date": "2026-09-24T12:03:30Z",
           "branches": [
-            "feature/day8-langgraph-orchestration"
+            "feature/day8-langgraph-orchestration",
+            "main"
           ],
           "additions": 1,
           "deletions": 1,
@@ -1415,7 +1682,8 @@
           "login": "rudramehta-w",
           "date": "2026-09-24T12:11:50Z",
           "branches": [
-            "feature/day8-langgraph-orchestration"
+            "feature/day8-langgraph-orchestration",
+            "main"
           ],
           "additions": 4,
           "deletions": 4,
@@ -1431,7 +1699,8 @@
           "login": "rudramehta-w",
           "date": "2026-09-24T15:06:53Z",
           "branches": [
-            "feature/day8-langgraph-orchestration"
+            "feature/day8-langgraph-orchestration",
+            "main"
           ],
           "additions": 1,
           "deletions": 0,
@@ -1447,7 +1716,8 @@
           "login": "rudramehta-w",
           "date": "2026-09-24T15:07:33Z",
           "branches": [
-            "feature/day8-langgraph-orchestration"
+            "feature/day8-langgraph-orchestration",
+            "main"
           ],
           "additions": 463,
           "deletions": 0,
@@ -1463,7 +1733,8 @@
           "login": "rudramehta-w",
           "date": "2026-09-24T15:08:02Z",
           "branches": [
-            "feature/day8-langgraph-orchestration"
+            "feature/day8-langgraph-orchestration",
+            "main"
           ],
           "additions": 42,
           "deletions": 237,
@@ -1479,7 +1750,8 @@
           "login": "rudramehta-w",
           "date": "2026-09-24T15:08:21Z",
           "branches": [
-            "feature/day8-langgraph-orchestration"
+            "feature/day8-langgraph-orchestration",
+            "main"
           ],
           "additions": 5,
           "deletions": 3,
@@ -1496,7 +1768,8 @@
           "login": "rudramehta-w",
           "date": "2026-09-24T15:09:48Z",
           "branches": [
-            "feature/day8-langgraph-orchestration"
+            "feature/day8-langgraph-orchestration",
+            "main"
           ],
           "additions": 250,
           "deletions": 0,
@@ -1505,12 +1778,36 @@
           "paths": [
             "tests/test_api_day8.py"
           ]
+        },
+        {
+          "sha": "5ea51fda",
+          "author": "Rudra Mehta",
+          "login": "rudramehta-w",
+          "date": "2026-09-24T15:24:15Z",
+          "branches": [
+            "main"
+          ],
+          "additions": 771,
+          "deletions": 249,
+          "files_changed": 9,
+          "message": "Merge pull request #10 from ExtremumAnalytics-CIR/feature/day8-langgraph-orchestration\n\nFeature/day8 langgraph orchestration",
+          "paths": [
+            "backend/app/api/endpoints.py",
+            "backend/app/services/intent.py",
+            "backend/app/services/orchestrator.py",
+            "pyproject.toml",
+            "tests/test_api_day1.py",
+            "tests/test_api_day2.py",
+            "tests/test_api_day5.py",
+            "tests/test_api_day7.py",
+            "tests/test_api_day8.py"
+          ]
         }
       ],
-      "commit_count_today": 26,
-      "additions_today": 1601,
-      "deletions_today": 713,
-      "total_commits_default_branch": 68,
+      "commit_count_today": 27,
+      "additions_today": 2372,
+      "deletions_today": 962,
+      "total_commits_default_branch": 77,
       "first_commit_date": "2026-09-14",
       "active_days": 9,
       "active_dates": [
@@ -1524,7 +1821,7 @@
         "2026-09-23",
         "2026-09-24"
       ],
-      "file_count": 72,
+      "file_count": 74,
       "top_level": [
         ".env.example",
         ".gitignore",
