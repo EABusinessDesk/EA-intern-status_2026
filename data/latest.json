@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-10-09T15:21:31Z",
-  "local_date": "2026-10-09",
-  "window_start_utc": "2026-10-08T18:30:00Z",
+  "generated_at_utc": "2026-10-12T15:23:02Z",
+  "local_date": "2026-10-12",
+  "window_start_utc": "2026-10-11T18:30:00Z",
   "day1_date": "2026-09-15",
-  "elapsed_day_number": 25,
+  "elapsed_day_number": 28,
   "org": "ExtremumAnalytics-CIR",
   "projects": [
     {
@@ -124,407 +124,19 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-14T17:23:15Z",
-      "last_push_at": "2026-10-09T13:00:51Z",
+      "last_push_at": "2026-10-09T15:59:16Z",
       "is_empty": false,
       "branches": [
-        "main",
-        "revised_system"
+        "main"
       ],
-      "commits_today": [
-        {
-          "sha": "a836ffaa",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-08T19:49:33Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 526,
-          "deletions": 23,
-          "files_changed": 18,
-          "message": "feat: implement phase 1 runtime and data hardening",
-          "paths": [
-            ".env.example",
-            "backend/alembic.ini",
-            "backend/app/database/postgres_schema.sql",
-            "backend/app/documents/document_repository.py",
-            "backend/app/graph/service.py",
-            "backend/app/main.py",
-            "backend/app/models.py",
-            "backend/app/operational.py",
-            "backend/app/runtime_config.py",
-            "backend/app/semantic_query/catalog.py",
-            "backend/app/semantic_query/service.py",
-            "backend/app/semantic_query/sql_validator.py",
-            "backend/app/structured_store.py",
-            "backend/migrations/env.py",
-            "backend/migrations/script.py.mako",
-            "backend/migrations/versions/20261008_0001_initial_finance_schema.py",
-            "backend/requirements.txt",
-            "frontend/src/App.tsx"
-          ]
-        },
-        {
-          "sha": "fc77402c",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-08T19:51:18Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 117,
-          "deletions": 0,
-          "files_changed": 1,
-          "message": "test: cover phase 1 finance and operational behavior",
-          "paths": [
-            "backend/tests/test_api.py"
-          ]
-        },
-        {
-          "sha": "10be5f1c",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-08T19:52:27Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 71,
-          "deletions": 26,
-          "files_changed": 2,
-          "message": "docs: document revised system phase 1",
-          "paths": [
-            "README.md",
-            "docs/REVISED_SYSTEM.md"
-          ]
-        },
-        {
-          "sha": "d932042b",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-08T20:45:04Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 812,
-          "deletions": 44,
-          "files_changed": 10,
-          "message": "feat(search): add versioned PostgreSQL document retrieval",
-          "paths": [
-            ".env.example",
-            "backend/app/documents/document_repository.py",
-            "backend/app/documents/document_search_store.py",
-            "backend/app/documents/document_vector_index.py",
-            "backend/app/documents/postgres_document_store.py",
-            "backend/app/main.py",
-            "backend/app/runtime_config.py",
-            "backend/migrations/versions/20261009_0002_document_vector_store.py",
-            "backend/scripts/compare_document_search.py",
-            "backend/scripts/index_postgres_documents.py"
-          ]
-        },
-        {
-          "sha": "2891c695",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-08T20:46:02Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 49,
-          "deletions": 1,
-          "files_changed": 2,
-          "message": "test(search): validate PostgreSQL document retrieval",
-          "paths": [
-            "backend/tests/test_api.py",
-            "backend/tests/test_document_search_store.py"
-          ]
-        },
-        {
-          "sha": "1295bc5c",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-08T20:46:59Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 61,
-          "deletions": 0,
-          "files_changed": 2,
-          "message": "docs: document Phase 2 durable search changes",
-          "paths": [
-            "README.md",
-            "docs/REVISED_SYSTEM.md"
-          ]
-        },
-        {
-          "sha": "c15a481d",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T06:47:06Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 750,
-          "deletions": 204,
-          "files_changed": 15,
-          "message": "feat: make API stateless and add durable ingestion jobs",
-          "paths": [
-            "backend/app/application_services.py",
-            "backend/app/documents/document_parser.py",
-            "backend/app/documents/document_repository.py",
-            "backend/app/documents/ingestion_jobs.py",
-            "backend/app/documents/postgres_document_sources.py",
-            "backend/app/evidence/linked_evidence_service.py",
-            "backend/app/graph/loader.py",
-            "backend/app/graph/service.py",
-            "backend/app/main.py",
-            "backend/app/workflow/langgraph_workflow.py",
-            "backend/app/workflow/source_executor.py",
-            "backend/migrations/versions/20261009_0003_document_ingestion_jobs.py",
-            "backend/scripts/enqueue_document_index.py",
-            "backend/scripts/run_document_worker.py",
-            "backend/scripts/verify_production_workflow.py"
-          ]
-        },
-        {
-          "sha": "b5d7f46e",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T06:48:00Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 163,
-          "deletions": 22,
-          "files_changed": 2,
-          "message": "test(runtime): cover lifecycle and ingestion recovery",
-          "paths": [
-            "backend/tests/test_api.py",
-            "backend/tests/test_ingestion_jobs.py"
-          ]
-        },
-        {
-          "sha": "ab427d86",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T06:50:49Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 59,
-          "deletions": 3,
-          "files_changed": 2,
-          "message": "docs: document Phase 3 stateless architecture",
-          "paths": [
-            "README.md",
-            "docs/REVISED_SYSTEM.md"
-          ]
-        },
-        {
-          "sha": "372f0325",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T07:49:01Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 938,
-          "deletions": 22,
-          "files_changed": 13,
-          "message": "feat(text-to-sql): add guarded LLM SQL execution",
-          "paths": [
-            ".env.example",
-            "backend/app/contracts/assistant_contract.json",
-            "backend/app/main.py",
-            "backend/app/runtime_config.py",
-            "backend/app/semantic_query/llm_planner.py",
-            "backend/app/semantic_query/llm_sql_guardrail.py",
-            "backend/app/semantic_query/llm_sql_planner.py",
-            "backend/app/semantic_query/models.py",
-            "backend/app/semantic_query/parser.py",
-            "backend/app/semantic_query/read_only_executor.py",
-            "backend/app/semantic_query/service.py",
-            "backend/app/structured_store.py",
-            "backend/requirements.txt"
-          ]
-        },
-        {
-          "sha": "73ed536b",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T07:50:57Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 368,
-          "deletions": 0,
-          "files_changed": 1,
-          "message": "test(text-to-sql): cover SQL guardrails and fallback behavior",
-          "paths": [
-            "backend/tests/test_text_to_sql.py"
-          ]
-        },
-        {
-          "sha": "615799bd",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T07:51:58Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 61,
-          "deletions": 0,
-          "files_changed": 2,
-          "message": "docs: document Phase 4 text-to-SQL rollout",
-          "paths": [
-            "README.md",
-            "docs/REVISED_SYSTEM.md"
-          ]
-        },
-        {
-          "sha": "967175ec",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T08:25:37Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 510,
-          "deletions": 65,
-          "files_changed": 9,
-          "message": "feat(graph): add versioned Neo4j projections",
-          "paths": [
-            ".env.example",
-            "backend/app/graph/config.py",
-            "backend/app/graph/constraints.py",
-            "backend/app/graph/loader.py",
-            "backend/app/graph/queries.py",
-            "backend/app/graph/repository.py",
-            "backend/app/operational.py",
-            "backend/scripts/check_graph_projection.py",
-            "backend/scripts/manage_graph_projection.py"
-          ]
-        },
-        {
-          "sha": "591e8de7",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T08:26:17Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 204,
-          "deletions": 0,
-          "files_changed": 1,
-          "message": "test(graph): cover projection reconciliation and activation",
-          "paths": [
-            "backend/tests/test_graph_projection.py"
-          ]
-        },
-        {
-          "sha": "179885e9",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T08:27:24Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 342,
-          "deletions": 178,
-          "files_changed": 2,
-          "message": "docs: document Phase 5 graph projections",
-          "paths": [
-            "README.md",
-            "docs/REVISED_SYSTEM.md"
-          ]
-        },
-        {
-          "sha": "37cbd1d7",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T12:46:03Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 523,
-          "deletions": 9,
-          "files_changed": 10,
-          "message": "feat: add production metrics and verification tools",
-          "paths": [
-            ".env.example",
-            "backend/app/main.py",
-            "backend/app/operational.py",
-            "backend/app/runtime_config.py",
-            "backend/app/semantic_query/llm_planner.py",
-            "backend/app/semantic_query/llm_sql_planner.py",
-            "backend/app/semantic_query/service.py",
-            "backend/app/structured_store.py",
-            "backend/scripts/load_test_api.py",
-            "backend/scripts/verify_ingestion_recovery.py"
-          ]
-        },
-        {
-          "sha": "35e8d6ed",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T12:47:10Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 227,
-          "deletions": 0,
-          "files_changed": 1,
-          "message": "test: cover observability and injection boundaries",
-          "paths": [
-            "backend/tests/test_production_verification.py"
-          ]
-        },
-        {
-          "sha": "6860caea",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T12:48:03Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 91,
-          "deletions": 0,
-          "files_changed": 2,
-          "message": "docs: document Phase 6 production verification",
-          "paths": [
-            "README.md",
-            "docs/REVISED_SYSTEM.md"
-          ]
-        },
-        {
-          "sha": "04be8b68",
-          "author": "Samridhi Jain",
-          "login": "samridhiiiijain",
-          "date": "2026-10-09T13:00:42Z",
-          "branches": [
-            "revised_system"
-          ],
-          "additions": 3,
-          "deletions": 5,
-          "files_changed": 2,
-          "message": "docs: document Phase 6 production verification",
-          "paths": [
-            "README.md",
-            "docs/REVISED_SYSTEM.md"
-          ]
-        }
-      ],
-      "commit_count_today": 19,
-      "additions_today": 5875,
-      "deletions_today": 602,
-      "total_commits_default_branch": 99,
-      "first_commit_date": "2026-09-14",
-      "active_days": 14,
+      "commits_today": [],
+      "commit_count_today": 0,
+      "additions_today": 0,
+      "deletions_today": 0,
+      "total_commits_default_branch": 100,
+      "first_commit_date": "2026-09-18",
+      "active_days": 12,
       "active_dates": [
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-17",
         "2026-09-18",
         "2026-09-21",
         "2026-09-22",
@@ -534,9 +146,11 @@
         "2026-09-30",
         "2026-10-01",
         "2026-10-03",
-        "2026-10-04"
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-09"
       ],
-      "file_count": 108,
+      "file_count": 136,
       "top_level": [
         ".env.example",
         ".gitignore",
@@ -773,7 +387,7 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-15T12:47:30Z",
-      "last_push_at": "2026-09-30T17:19:26Z",
+      "last_push_at": "2026-10-10T10:45:25Z",
       "is_empty": false,
       "branches": [
         "main"
@@ -782,9 +396,9 @@
       "commit_count_today": 0,
       "additions_today": 0,
       "deletions_today": 0,
-      "total_commits_default_branch": 76,
+      "total_commits_default_branch": 77,
       "first_commit_date": "2026-09-15",
-      "active_days": 11,
+      "active_days": 12,
       "active_dates": [
         "2026-09-15",
         "2026-09-16",
@@ -796,9 +410,10 @@
         "2026-09-24",
         "2026-09-25",
         "2026-09-29",
-        "2026-09-30"
+        "2026-09-30",
+        "2026-10-10"
       ],
-      "file_count": 102,
+      "file_count": 103,
       "top_level": [
         ".gitignore",
         "BENCHMARK.md",
@@ -835,7 +450,7 @@
       "status": "ok",
       "default_branch": "main",
       "repo_created_at": "2026-09-14T13:16:37Z",
-      "last_push_at": "2026-10-06T02:08:31Z",
+      "last_push_at": "2026-10-10T08:26:39Z",
       "is_empty": false,
       "branches": [
         "fix/app",
