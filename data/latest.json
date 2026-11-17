@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-16T23:42:31Z",
-  "local_date": "2026-11-17",
-  "window_start_utc": "2026-11-16T18:30:00Z",
+  "generated_at_utc": "2026-11-17T22:50:29Z",
+  "local_date": "2026-11-18",
+  "window_start_utc": "2026-11-17T18:30:00Z",
   "day1_date": "2026-09-15",
-  "elapsed_day_number": 64,
+  "elapsed_day_number": 65,
   "org": "ExtremumAnalytics-CIR",
   "projects": [
     {
